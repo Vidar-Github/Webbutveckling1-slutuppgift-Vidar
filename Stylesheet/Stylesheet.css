@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*
+==============================================================================
+Reusable
+==============================================================================
+*/
+body
+{
+	display: grid;
+	grid-column-gap: 2%;
+	background-color: #D9C8A8;
+	margin: 0;
+}
+header
+{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	font-size: 1.5em;
+	font-family: 'Lobster', sans-serif;
+	text-align: center;
+	border: solid black 5px;
+	background-color: #4A5A63;
+}
+aside
+{
+	border: solid black 5px;
+	border-top: none;
+	grid-row: 2 / 4;
+	background-color: #4A5A63;
+	padding: 1vw;
+}
+div
+{
+	border: solid black 5px;
+	border-radius: 15px;
+	padding: 0.5em;
+}
+footer
+{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-gap: 0;
+	border: solid black 5px;
+}
+h2
+{
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+h3
+{
+	text-decoration: underline;
+}
+a
+{
+	color: black;
+}
+.Title
+{
+	background-image: linear-gradient(to right, red, yellow);
+	background-clip: text;
+	color: transparent;
+}
+.Title > a
+{
+	text-decoration: none;
+	color: transparent;
+}
+.Navigator
+{
+	width: 10vw;
+}
+/*
+==============================================================================
+Startpage
+==============================================================================
+*/
+
+#Nature
+{
+	grid-column: 2 / 5;
+}
+.QuickFacts
+{
+	padding: 0.5em;
+	text-align: center;
+	padding-bottom: 0;
+}
+.QuickFactsBlock
+{
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	background-color: #5A7B34;
+}
+p
+{
+	font-size: 1.2em;
+}
+/*
+==============================================================================
+Time Periods
+==============================================================================
+*/
+.DinoFacts
+{
+	width: 70vw;
+	background-image: linear-gradient(to right, red, yellow, red);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.DinoFacts p
+{
+	font-size: 0.8em;
+}
+.DinoFacts > div
+{
+	padding: 0.5em;
+	margin: 0.5em;
+	width: 30vw;
+	background-color: #4A5A63;
+}
+.DinoFacts > .DinoFactsHeader 
+{
+	width: 63.3vw;
+	background-color: #3A4A53;
+}
+/*
+==============================================================================
+Nature and Geology
+==============================================================================
+*/
+#GeologyFacts
+{
+	background-color: #5A7B34;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+
