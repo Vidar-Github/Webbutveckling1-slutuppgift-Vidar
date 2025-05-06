@@ -56,7 +56,7 @@ a
 {
 	color: black;
 }
-.Title
+header > .Title
 {
 	background-image: linear-gradient(to right, red, yellow);
 	background-clip: text;
@@ -67,10 +67,41 @@ a
 	text-decoration: none;
 	color: transparent;
 }
-.Navigator
+.Navigator, .Navigator a
 {
 	width: 10vw;
+	color: #FFC800;
 }
+.Navigator > div
+{
+	background-color: #36464F;
+	border: none;
+}
+.Navigator > div > ul
+{
+	font-size: 0.9em;
+	text-align: left;
+	padding-left: 0;
+	text-align: left;
+	padding-left: 1.2em;
+}
+.Navigator a:link,
+.Navigator a:visited
+{
+	text-decoration: none;
+	color: #FFC800;
+}
+.Navigator a:focus,
+.Navigator a:hover
+{
+	text-decoration: underline;
+	color: #ffc800;
+}
+.Navigator a:active
+{
+	color: #d4a602;
+}
+
 /*
 ==============================================================================
 Startpage
@@ -113,7 +144,7 @@ Time Periods
 }
 .DinoFacts p
 {
-	font-size: 0.8em;
+	font-size: 1em;
 }
 .DinoFacts > div
 {
@@ -121,6 +152,7 @@ Time Periods
 	margin: 0.5em;
 	width: 30vw;
 	background-color: #4A5A63;
+	color: #FFC800;
 }
 .DinoFacts > .DinoFactsHeader 
 {
@@ -129,14 +161,45 @@ Time Periods
 }
 /*
 ==============================================================================
-Nature and Geology
+Nature and Geology / Classification
 ==============================================================================
 */
-#GeologyFacts
+table
+{
+	background-color: #EEE;
+	text-align: center;
+	float: right;
+	margin: 1em;
+}
+table, th, td
+{
+	border: 2px solid black;
+}
+#GeologyFacts, #ClassificationFacts
 {
 	background-color: #5A7B34;
 	padding-left: 2em;
 	padding-right: 2em;
 }
-
-
+#GeologyFacts > img
+{
+	float: right;
+	width: 20vw;
+	height: 30vh;
+	border: solid darkblue 5px;
+	border-radius: 10px;
+}
+#ClassificationFacts > img
+{
+	float: right;
+	width: 27vw;
+	height: 55vh;
+	border: solid darkblue 5px;
+	border-radius: 10px;
+	margin-left: 0.5em;
+}
+#ClassificationFacts > .DinoPicture
+{
+	width: 15vw;
+	height: 30vh;
+}
