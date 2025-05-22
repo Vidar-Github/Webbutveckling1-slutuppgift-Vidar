@@ -41,6 +41,8 @@ footer
 	grid-column-end: 5;
 	grid-row-gap: 0;
 	border: solid black 5px;
+	text-align: center;
+	border: none;
 }
 h2
 {
@@ -100,14 +102,13 @@ header > .Title
 .Navigator a:active
 {
 	color: #d4a602;
+	text-decoration: underline;
 }
-
 /*
 ==============================================================================
 Startpage
 ==============================================================================
 */
-
 #Nature
 {
 	grid-column: 2 / 5;
@@ -130,15 +131,15 @@ p
 }
 /*
 ==============================================================================
-Time Periods
+Dino Grid
 ==============================================================================
 */
 .DinoFacts
 {
 	width: 70vw;
 	background-image: linear-gradient(to right, red, yellow, red);
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	justify-content: center;
 	
 }
@@ -146,18 +147,38 @@ Time Periods
 {
 	font-size: 1em;
 }
-.DinoFacts > div
+.DinoFacts > section
 {
 	padding: 0.5em;
 	margin: 0.5em;
 	width: 30vw;
 	background-color: #4A5A63;
 	color: #FFC800;
+	border: solid black 5px;
+	border-radius: 10px;
+}
+.DinoFacts div
+{
+	border: none;
 }
 .DinoFacts > .DinoFactsHeader 
 {
 	width: 63.3vw;
 	background-color: #3A4A53;
+}
+Button
+{
+	float: center;
+}
+.Info
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.Show
+{
+		display: none;
 }
 /*
 ==============================================================================
@@ -200,6 +221,47 @@ table, th, td
 }
 #ClassificationFacts > .DinoPicture
 {
-	width: 15vw;
-	height: 30vh;
+	max-width: 15vw;
+	max-height: 30vh;
+}
+/*
+==============================================================================
+Contact Page
+==============================================================================
+*/
+fieldset
+{
+	border: none;
+}
+legend
+{
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+#FormBackground
+{
+	background-image: linear-gradient(to right, red, yellow);
+	width: 160%;
+}
+textarea
+{
+	width: 80%;
+}
+#Submit
+{
+	display: flex;
+	justify-content: center;
+}
+/*
+==============================================================================
+Media queries
+==============================================================================
+*/
+@media (max-width: 1100px)
+{
+	.Navigator
+	{
+		width: 15vw;
+	}
+	.DinoFacts > div
 }

@@ -1,0 +1,77 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Contact</title>
+		<link rel="stylesheet" href="Stylesheet/Stylesheet.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1 class="Title"><a href="Index.html">When Dinosaurs Ruled Earth: </a>Contact Page</h1>
+		</header>
+		<aside class="Navigator">
+			<div>
+				<h2>Menu</h2>
+				<ul>
+					<li><a href="Triassic.html">Triassic</a></li>
+					<li><a href="Jurassic.html">Jurassic</a></li>
+					<li><a href="Cretaceous.html">Cretaceous</a></li>
+					<li><a href="Classification.html">Classification</a></li>
+					<li><a href="Nature.html">Nature</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</aside>
+		<div id="FormBackground">
+			<form action="" method="post">
+				<fieldset>
+					<legend>Your Contact Information</legend>
+					<p>
+						<label for="fn">First Name:</label>
+						<input type="text" name="firstname" id="fn" required />
+					</p>
+					<p>
+						<label for="ln">Last Name:</label>
+						<input type="text" name="lastname" id="ln" required />
+					</p>
+					<p>
+						<label for="em">Email:</label>
+						<input type="text" name="email" id="em" required />
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Message Details</legend>
+					<p>
+						Reason for contact:
+					</p>
+					<p>
+						<input type="radio" name="reason" value="complaint" id="complaint"/>
+						<label for="complaint">Complaint</label>
+					</p>
+					<p>
+						<input type="radio" name="reason" value="questions" id="questions"/>
+						<label for="questions">Questions</label>
+					</p>
+					<p>
+						<input type="radio" name="reason" value="other" id="other"/>
+						<label for="other">Other</label>
+					</p>
+					<p>
+						<label for="message">Message:</label>
+					<p>
+					<p>
+						<textarea id="message" name="message" placeholder="Write your message here, keep it as short as possible!"></textarea>
+					<p>
+				</fieldset>
+				<fieldset>
+					<p id="Submit">
+						<input type="submit" value="Send Message">
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
