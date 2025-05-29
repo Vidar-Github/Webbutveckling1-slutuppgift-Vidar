@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>The Jurassic Period</title>
 		<link rel="stylesheet" href="Stylesheet/Stylesheet.css"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,240 +26,418 @@
 				</ul>
 			</div>
 		</aside>
-		<div class="DinoFacts">
+		<section class="DinoFacts">
 			<div class="DinoFactsHeader">
 				<h2>Early Jurassic</h2>
 			</div>
 			<div>
 				<h3>Aardonyx</h3>
-				<p>Name: "Earth Claw"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 8 meters</p>
+				<button class="ExpandButton" data-target="InfoAardonyx">Show Info</button>
+				<div id="InfoAardonyx" class="InfoDinosaurs">
+					<p>Name: "Earth Claw"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 8 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Ammosaurus</h3>
-				<p>Name: "Sand Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 5 meters</p>
+				<button class="ExpandButton" data-target="InfoAmmosaurus">Show Info</button>
+				<div id="InfoAmmosaurus" class="InfoDinosaurs">
+					<p>Name: "Sand Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 5 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Anchisaurus</h3>
-				<p>Name: "Near Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 2 meters</p>
+				<button class="ExpandButton" data-target="InfoAnchisaurus">Show Info</button>
+				<div id="InfoAnchisaurus" class="InfoDinosaurs">
+					<p>Name: "Near Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 2 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Barapasaurus</h3>
-				<p>Name: "Big Leg Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 14 meters</p>
+				<button class="ExpandButton" data-target="InfoBarapasaurus">Show Info</button>
+				<div id="InfoBarapasaurus" class="InfoDinosaurs">
+					<p>Name: "Big Leg Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 14 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Cryolophosaurus</h3>
-				<p>Name: "Frozen Crested Lizard"</p>
-				<p>Taxonomy: Saurischia, Theropoda, Tetanurae</p>
-				<p>Diet: Carnivorous</p>
-				<p>Length: 8 meters</p>
+				<button class="ExpandButton" data-target="InfoCryolophosaurus">Show Info</button>
+				<div id="InfoCryolophosaurus" class="InfoDinosaurs">
+					<p>Name: "Frozen Crested Lizard"</p>
+					<p>Taxonomy: Saurischia, Theropoda, Tetanurae</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 8 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Dilophosaurus</h3>
-				<p>Name: "Two-Crested Lizard"</p>
-				<p>Taxonomy: Saurischia, Therapoda</p>
-				<p>Diet: Carnivourus</p>
-				<p>Length: 7 meters</p>
+				<button class="ExpandButton" data-target="InfoDilophosaurus">Show Info</button>
+				<div id="InfoDilophosaurus" class="InfoDinosaurs">
+					<p>Name: "Two-Crested Lizard"</p>
+					<p>Taxonomy: Saurischia, Therapoda</p>
+					<p>Diet: Carnivourus</p>
+					<p>Length: 7 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Heterodontosaurus</h3>
-				<p>Name: "Different-Teeth Lizard"</p>
-				<p>Taxonomy: Ornithischia, Cerapoda, Heterodontosauridae</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 1.2 meters</p>
+				<button class="ExpandButton" data-target="InfoHeterodontosaurus">Show Info</button>
+				<div id="InfoHeterodontosaurus" class="InfoDinosaurs">
+					<p>Name: "Different-Teeth Lizard"</p>
+					<p>Taxonomy: Ornithischia, Cerapoda, Heterodontosauridae</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 1.2 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Jingshanosaurus</h3>
-				<p>Name: "Jingshan Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Plateosauridae</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 5 meters</p>
+				<button class="ExpandButton" data-target="InfoJingshanosaurus">Show Info</button>
+				<div id="InfoJingshanosaurus" class="InfoDinosaurs">
+					<p>Name: "Jingshan Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Plateosauridae</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 5 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Kotasaurus</h3>
-				<p>Name: "Kota Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 9 meters</p>
+				<button class="ExpandButton" data-target="InfoKotasaurus">Show Info</button>
+				<div id="InfoKotasaurus" class="InfoDinosaurs">
+					<p>Name: "Kota Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 9 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Lesothosaurus</h3>
-				<p>Name: "Lesotho Lizard"</p>
-				<p>Taxonomy: Ornithischia</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 1 meters</p>
+				<button class="ExpandButton" data-target="InfoLesothosaurus">Show Info</button>
+				<div id="InfoLesothosaurus" class="InfoDinosaurs">
+					<p>Name: "Lesotho Lizard"</p>
+					<p>Taxonomy: Ornithischia</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 1 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Lophostropheus</h3>
-				<p>Name: "Crested Vertebrae"</p>
-				<p>Taxonomy: Saurischia</p>
-				<p>Diet: Carnivorous</p>
-				<p>Length: 6.2 meters</p>
+				<button class="ExpandButton" data-target="InfoLophostropheus">Show Info</button>
+				<div id="InfoLophostropheus" class="InfoDinosaurs">
+					<p>Name: "Crested Vertebrae"</p>
+					<p>Taxonomy: Saurischia</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 6.2 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Lufengosaurus</h3>
-				<p>Name: "Lufeng Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 6 meters</p>
+				<button class="ExpandButton" data-target="InfoLufengosaurus">Show Info</button>
+				<div id="InfoLufengosaurus" class="InfoDinosaurs">
+					<p>Name: "Lufeng Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 6 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Massospondylus</h3>
-				<p>Name: "Massive Vertebrae"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Plateosauridae</p>
-				<p>Diet: Omnivorous</p>
-				<p>Length: 4 meters</p>
+				<button class="ExpandButton" data-target="InfoMassospondylus">Show Info</button>
+				<div id="InfoMassospondylus" class="InfoDinosaurs">
+					<p>Name: "Massive Vertebrae"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Plateosauridae</p>
+					<p>Diet: Omnivorous</p>
+					<p>Length: 4 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Pantydraco</h3>
-				<p>Name: "Pant-y-ffynnon Dragon"</p>
-				<p>Taxonomy: Saurischia</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 3 meters</p>
+				<button class="ExpandButton" data-target="InfoPantydraco">Show Info</button>
+				<div id="InfoPantydraco" class="InfoDinosaurs">
+					<p>Name: "Pant-y-ffynnon Dragon"</p>
+					<p>Taxonomy: Saurischia</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 3 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Sarcosaurus</h3>
-				<p>Name: "Flesh Lizard"</p>
-				<p>Taxonomy: Saurischia, Theropoda, Ceratosauria</p>
-				<p>Diet: Carnivorous</p>
-				<p>Length: 3 meters</p>
+				<button class="ExpandButton" data-target="InfoSarcosaurus">Show Info</button>
+				<div id="InfoSarcosaurus" class="InfoDinosaurs">
+					<p>Name: "Flesh Lizard"</p>
+					<p>Taxonomy: Saurischia, Theropoda, Ceratosauria</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 3 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Scelidosaurus</h3>
-				<p>Name: "Limp Lizard"</p>
-				<p>Taxonomy: Ornithischia, Thyreophora</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 4 meters</p>
+				<button class="ExpandButton" data-target="InfoScelidosaurus">Show Info</button>
+				<div id="InfoScelidosaurus" class="InfoDinosaurs">
+					<p>Name: "Limp Lizard"</p>
+					<p>Taxonomy: Ornithischia, Thyreophora</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 4 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Scutellosaurus</h3>
-				<p>Name: "Small Shield Lizard"</p>
-				<p>Taxonomy: Ornithischia, Thyreophora</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 1.2 meters</p>
+				<button class="ExpandButton" data-target="InfoScutellosaurus">Show Info</button>
+				<div id="InfoScutellosaurus" class="InfoDinosaurs">
+					<p>Name: "Small Shield Lizard"</p>
+					<p>Taxonomy: Ornithischia, Thyreophora</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 1.2 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Vulcanodon</h3>
-				<p>Name: "Volcano Tooth"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 6.5 meters</p>
+				<button class="ExpandButton" data-target="InfoVulcanodon">Show Info</button>
+				<div id="InfoVulcanodon" class="InfoDinosaurs">
+					<p>Name: "Volcano Tooth"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 6.5 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Yimenosaurus</h3>
-				<p>Name: "Yimen Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 9 meters</p>
+				<button class="ExpandButton" data-target="InfoYimenosaurus">Show Info</button>
+				<div id="InfoYimenosaurus" class="InfoDinosaurs">
+					<p>Name: "Yimen Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 9 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Yunnanosaurus</h3>
-				<p>Name: "Yunnan Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Plateosauridae</p>
-				<p>Diet: Omnivorous</p>
-				<p>Length: 7 meters</p>
+				<button class="ExpandButton" data-target="InfoYunnanosaurus">Show Info</button>
+				<div id="InfoYunnanosaurus" class="InfoDinosaurs">
+					<p>Name: "Yunnan Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Plateosauridae</p>
+					<p>Diet: Omnivorous</p>
+					<p>Length: 7 meters</p>
+				</div>
 			</div>
 			<div class="DinoFactsHeader">
 				<h2>Mid Jurassic</h2>
 			</div>
 			<div>
 				<h3>Amygdalodon</h3>
-				<p>Name: "Almond Tooth"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
-				<p>Diet: herbivorous</p>
-				<p>Length: 15 meters</p>
+				<button class="ExpandButton" data-target="InfoAmygdalodon">Show Info</button>
+				<div id="InfoAmygdalodon" class="InfoDinosaurs">
+					<p>Name: "Almond Tooth"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: herbivorous</p>
+					<p>Length: 15 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Bellusaurus</h3>
-				<p>Name: "Fine Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Plateosauridae</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 5 meters</p>
+				<button class="ExpandButton" data-target="InfoBellusaurus">Show Info</button>
+				<div id="InfoBellusaurus" class="InfoDinosaurs">
+					<p>Name: "Fine Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Plateosauridae</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 5 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Brachytrachelopan</h3>
-				<p>Name: "Short-Necked Pan"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda, Diplodocoidea</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 10 meters</p>
+				<button class="ExpandButton" data-target="InfoBrachytrachelopan">Show Info</button>
+				<div id="InfoBrachytrachelopan" class="InfoDinosaurs">
+					<p>Name: "Short-Necked Pan"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda, Diplodocoidea</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 10 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Cetiosaurus</h3>
-				<p>Name: "Fine Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 18 meters</p>
+				<button class="ExpandButton" data-target="InfoCetiosaurus">Show Info</button>
+				<div id="InfoCetiosaurus" class="InfoDinosaurs">
+					<p>Name: "Fine Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 18 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Datousaurus</h3>
-				<p>Name: "Datou Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 15 meters</p>
+				<button class="ExpandButton" data-target="InfoDatousaurus">Show Info</button>
+				<div id="InfoDatousaurus" class="InfoDinosaurs">
+					<p>Name: "Datou Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 15 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Emausaurus</h3>
-				<p>Name: "EMAU Lizard"</p>
-				<p>Taxonomy: Ornithischia, Thyreophora</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 2 meters</p>
+				<button class="ExpandButton" data-target="InfoEmausaurus">Show Info</button>
+				<div id="InfoEmausaurus" class="InfoDinosaurs">
+					<p>Name: "EMAU Lizard"</p>
+					<p>Taxonomy: Ornithischia, Thyreophora</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 2 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Gasosaurus</h3>
-				<p>Name: "Gas Lizard"</p>
-				<p>Taxonomy: Saurischia, Therapoda, Tetanurae</p>
-				<p>Diet: Carnivorous</p>
-				<p>Length: 4 meters</p>
+				<button class="ExpandButton" data-target="InfoGasosaurus">Show Info</button>
+				<div id="InfoGasosaurus" class="InfoDinosaurs">
+					<p>Name: "Gas Lizard"</p>
+					<p>Taxonomy: Saurischia, Therapoda, Tetanurae</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 4 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Huayangosaurus</h3>
-				<p>Name: "Huayang Lizard"</p>
-				<p>Taxonomy: Ornithischia, Thyreophora, Stegosauria</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 4.5 meters</p>
+				<button class="ExpandButton" data-target="InfoHuayangosaurus">Show Info</button>
+				<div id="InfoHuayangosaurus" class="InfoDinosaurs">
+					<p>Name: "Huayang Lizard"</p>
+					<p>Taxonomy: Ornithischia, Thyreophora, Stegosauria</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 4.5 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Lapparentosaurus</h3>
-				<p>Name: "Lapparent's Lizard"</p>
-				<p>Taxonomy: Saurischia, Saurupodomorpha, Sauropoda, Macronaria</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: Unknown</p>
+				<button class="ExpandButton" data-target="InfoLapparentosaurus">Show Info</button>
+				<div id="InfoLapparentosaurus" class="InfoDinosaurs">
+					<p>Name: "Lapparent's Lizard"</p>
+					<p>Taxonomy: Saurischia, Saurupodomorpha, Sauropoda, Macronaria</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: Unknown</p>
+				</div>
 			</div>
 			<div>
 				<h3>Megalosaurus</h3>
-				<p>Name: "Big Lizard"</p>
-				<p>Taxonomy: Saurischia, Therapoda, Megalosauridae</p>
-				<p>Diet: Carnivorous</p>
-				<p>Length: 6 meters</p>
+				<button class="ExpandButton" data-target="InfoMegalosaurus">Show Info</button>
+				<div id="InfoMegalosaurus" class="InfoDinosaurs">
+					<p>Name: "Big Lizard"</p>
+					<p>Taxonomy: Saurischia, Therapoda, Megalosauridae</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 6 meters</p>
+				</div>
 			</div>
 			<div>
 				<h3>Monolophosaurus</h3>
-				<p>Name: "Single-Crested Lizard"</p>
-				<p>Taxonomy: Saurischia, Therapoda, Tetanurae</p>
-				<p>Diet: Carnivorous</p>
-				<p>Length: 5.7 meters</p>
+				<button class="ExpandButton" data-target="InfoMonolophosaurus">Show Info</button>
+				<div id="InfoMonolophosaurus" class="InfoDinosaurs">
+					<p>Name: "Single-Crested Lizard"</p>
+					<p>Taxonomy: Saurischia, Therapoda, Tetanurae</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 5.7 meters</p>
+				</div>
 			</div>
 			<div>
-				<h3>Omeisurus</h3>
-				<p>Name: "Omei Lizard"</p>
-				<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
-				<p>Diet: Herbivorous</p>
-				<p>Length: 20 meters</p>
+				<h3>Omeisaurus</h3>
+				<button class="ExpandButton" data-target="InfoOmeisaurus">Show Info</button>
+				<div id="InfoOmeisaurus" class="InfoDinosaurs">
+					<p>Name: "Omei Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 20 meters</p>
+				</div>
 			</div>
-		</div>
+			<div>
+				<h3>Patagosaurus</h3>
+				<button class="ExpandButton" data-target="InfoPatagosaurus">Show Info</button>
+				<div id="InfoPatagosaurus" class="InfoDinosaurs">
+					<p>Name: "Patagonian Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 18 meters</p>
+				</div>
+			</div>
+			<div>
+				<h3>Proceratosaurus</h3>
+				<button class="ExpandButton" data-target="InfoProceratosaurus">Show Info</button>
+				<div id="InfoProceratosaurus" class="InfoDinosaurs">
+					<p>Name: "Before Horn Lizard"</p>
+					<p>Taxonomy: Saurischia, Theropoda, Tetanurae, Coelurosauria</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 4.1 meters</p>
+				</div>
+			</div>
+			<div>
+				<h3>Rhoetosaurus</h3>
+				<button class="ExpandButton" data-target="InfoRhoetosaurus">Show Info</button>
+				<div id="InfoRhoetosaurus" class="InfoDinosaurs">
+					<p>Name: "Rhoetan Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 15 meters</p>
+				</div>
+			</div>
+			<div>
+				<h3>Segisaurus</h3>
+				<button class="ExpandButton" data-target="InfoSegisaurus">Show Info</button>
+				<div id="InfoSegisaurus" class="InfoDinosaurs">
+					<p>Name: "Segi Lizard"</p>
+					<p>Taxonomy: Saurischia, Theropoda</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 1.5 meters</p>
+				</div>
+			</div>
+			<div>
+				<h3>Shunosaurus</h3>
+				<button class="ExpandButton" data-target="InfoShunosaurus">Show Info</button>
+				<div id="InfoShunosaurus" class="InfoDinosaurs">
+					<p>Name: "Shuno Lizard"</p>
+					<p>Taxonomy: Saurischia, Sauropodomorpha, Sauropoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 10 meters</p>
+				</div>
+			</div>
+			<div>
+				<h3>Sinraptor</h3>
+				<button class="ExpandButton" data-target="InfoSinraptor">Show Info</button>
+				<div id="InfoSinraptor" class="InfoDinosaurs">
+					<p>Name: "Chinese Plunderer"</p>
+					<p>Taxonomy: Saurischia, Theropoda, Tetanurae, Allosauroidae</p>
+					<p>Diet: Carnivorous</p>
+					<p>Length: 7.6 meters</p>
+				</div>
+			</div>
+			<div>
+				<h3>Yandusaurus</h3>
+				<button class="ExpandButton" data-target="InfoYandusaurus">Show Info</button>
+				<div id="InfoYandusaurus" class="InfoDinosaurs">
+					<p>Name: "Yandu Lizard"</p>
+					<p>Taxonomy: Ornithischia, Ornithopoda</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 3 meters</p>
+				</div>
+			</div>
+			<div>
+				<h3>Yinlong</h3>
+				<button class="ExpandButton" data-target="InfoYinlong">Show Info</button>
+				<div id="InfoYinlong" class="InfoDinosaurs">
+					<p>Name: "Hidden Dragon"</p>
+					<p>Taxonomy: Ornithischia, Ceratopsia</p>
+					<p>Diet: Herbivorous</p>
+					<p>Length: 1.2 meters</p>
+				</div>
+			</div>
+		</section>
 		<footer>
 			Website By: Vidar Dalengren
 		</footer>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<script src="Scripts/ShowInformation.js"></script>
 	</body>
 </html>
