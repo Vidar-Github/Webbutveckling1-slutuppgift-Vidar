@@ -143,6 +143,14 @@ Startpage
 	margin-right: 1vw;
 	background-color: #79a842;
 }
+.QuickFactsBlock h2
+{
+	transition: 0.3s;
+}
+.QuickFactsBlock h2:hover
+{
+	transform: translateY(-3px);
+}
 p
 {
 	font-size: 1.2em;
@@ -196,6 +204,7 @@ Dino Grid
 	color: black;
 	border: solid #3A4A53 3px;
 	border-radius: 5px;
+	cursor: pointer;
 	transition: 0.3s;
 }
 button:hover
@@ -268,7 +277,7 @@ Contact Page
 */
 form
 {
-	width: 200%;
+	width: 100%;
 }
 fieldset
 {
@@ -293,12 +302,13 @@ legend
 }
 textarea
 {
-	width: 30vw;
+	resize: none;
+	width: 40vw;
 }
 #Submit
 {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 }
 input[type="submit"]
 {
@@ -330,10 +340,6 @@ Media queries
 	{
 		height: auto;
 		max-width: 25%;
-	}
-	form
-	{
-		width: 150%;
 	}
 	table
 	{
@@ -445,5 +451,12 @@ Media queries
 	.QuickFactsBlock
 	{
 		margin-right: 0;
+	}
+}
+@media (max-width: 530px)
+{
+	form
+	{
+		width: 200%;
 	}
 }
